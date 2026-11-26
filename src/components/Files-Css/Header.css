@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --bg-secondary: #202020;
+  --text-main: #f5f5f4;
+  --text-secondary: #a8a29e;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: var(--bg-secondary);
+}
+.Header .Logo .logo {
+  padding: 10px 20px;
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--text-main);
+}
+.Header ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  align-items: center;
+}
+.Header ul li .links {
+  text-decoration: none;
+  color: var(--text-main);
+}
+.Header ul li .links:hover {
+  text-decoration: underline;
+  color: var(--text-secondary);
+}

@@ -1,0 +1,15 @@
+:root {
+  --bg-card: #292524;
+  --text-main: #f5f5f4;
+  --text-secondary: #a8a29e;
+}
+span {
+  color: var(--text-secondary);
+}
+button {
+  padding: 5px 15px;
+  font-size: 18px;
+  margin: 10px 5px 20px;
+  background-color: var(--bg-card);
+  color: var(--text-main);
+}

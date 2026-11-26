@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --bg-main: #171717;
+  --bg-secondary: #202020;
+  --bg-card: #292524;
+  --text-main: #f5f5f4;
+  --text-secondary: #a8a29e;
+}
+.watch-list,
+.watched {
+  background-color: var(--bg-main);
+  padding: 40px 60px;
+}
+.watch-list .container,
+.watched .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.watch-list .container .main-heading,
+.watched .container .main-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.watch-list .container .main-heading h3,
+.watched .container .main-heading h3 {
+  color: var(--text-main);
+}
+.watch-list .container .main-heading .movie-count,
+.watched .container .main-heading .movie-count {
+  color: var(--text-secondary);
+}
+.watch-list .container .no-movies,
+.watched .container .no-movies {
+  color: var(--text-secondary);
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
